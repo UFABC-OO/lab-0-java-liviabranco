@@ -19,7 +19,7 @@ public class TestOlaMundo {
 		OlaMundo.main(null);
 
 		// comparação
-		assertEquals("Sou UFABC!\n", saida.toString());
+		assertEquals("Sou UFABC!", saida.toString());
 
 		// saída original
 		System.setOut(saidaSistema);
